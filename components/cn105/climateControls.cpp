@@ -331,10 +331,10 @@ void CN105Climate::controlFan() {
     case climate::CLIMATE_FAN_LOW:
         this->setFanSpeed("1");
         break;
-    case climate::CLIMATE_FAN_MEDIUM:
+    case climate::CLIMATE_FAN_MIDDLE:
         this->setFanSpeed("2");
         break;
-    case climate::CLIMATE_FAN_MIDDLE:
+    case climate::CLIMATE_FAN_MEDIUM:
         this->setFanSpeed("3");
         break;
     case climate::CLIMATE_FAN_HIGH:
